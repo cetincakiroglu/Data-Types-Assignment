@@ -1,0 +1,15 @@
+{
+  "name": "data-types-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d assets"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage":"https://cetincakiroglu.github.io/Data-Types-Assignment",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}

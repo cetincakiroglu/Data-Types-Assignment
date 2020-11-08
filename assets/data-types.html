@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/style.css">
+    <title>Data Types</title>
+</head>
+<body>
+    <section id="container">
+        <table>
+            <thead>
+                <tr>
+                    <td colspan="2">
+                        <h1>Data Types in JavaScript</h1>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                     <h2>Boolean</h2>   
+                    </td>
+                    <td>
+                        <p>Boolean type data has only two values, <strong>"true"</strong>and<strong>"false"</strong>. It is very handy to use it in conditionals. For example; to run a code block in an "if" statement.</p>
+                        <div class="code">
+                            <code>
+                                let a = true;
+                                <br>
+                                typeof(a);
+                                <br>
+                                //returns "<strong>boolean</strong>"
+                            </code>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>Number</h2>
+                    </td>
+                    <td>
+                        <p>
+                            As we understand from the name, it represents <strong>numeric</strong> data. However, number should between -(2<sup>53</sup> -1) and 2<sup>53</sup> -1. Otherwise it becomes BigInt.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>Null</h2>
+                    </td>
+                    <td>
+                        <p>Null is basically means an empty object. The object exists without an identification. For example;</p>
+                            
+                        <div class="code">
+                            <code>
+                                let n = null;
+                                    <br>
+                                typeof(n);
+                                <br>
+                                //returns "<strong>object</strong>"
+                            </code>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>Undefined</h2>
+                    </td>
+                    <td>
+                        <p>Undefined means not defined by assigning a value. For example if a variable declared and not assigned to a value, it becomes <strong>undefined</strong>.</p>
+                        <br>
+                        <div class="code">
+                            <code>
+                                let myVariable;
+                                <br>
+                                typeof(myVariable); 
+                                <br>
+                                // returns <strong>"undefined"</strong>
+                            </code>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>String</h2>
+                    </td>
+                    <td>
+                        <p>JavaScript, everything surrounded by quotes is <strong>string</strong>. Any value can be a string inside double or single quotes. For example:</p>
+                        <div class="code">
+                            <code>
+                                let myName = "My name is Çetin";
+                                <br>
+                                let num = '321';
+                            </code>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>BigInt</h2>
+                    </td>
+                    <td>
+                        <p>BigInt is <strong>integer</strong>. However, a numeric value beyond the limits (2<sup>53</sup>-1) and -(2<sup>53</sup>-1), becomes BigInt. It is used to represent very large numbers. BigInt value is created by appending n to the end of an integer. For example; </p>
+                        <div class="code">
+                            <code>
+                                const num = 6546548798465131321654897984654n;
+                                <br>
+                                typeof(num); 
+                                <br>
+                                //returns "bigint"
+                            </code>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>Sources:</h2>
+                    </td>
+                    <td>
+                        <p><a href="https://javascript.info/types">JavaScript.info</a></p>
+                        <p><a href="https://www.w3schools.com/js/js_datatypes.asp">w3schools</a></p>
+                        <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures">MDN</a></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>
